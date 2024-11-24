@@ -48,9 +48,9 @@ export default function Navbar() {
                             <li><Link href="/market" className="text-gray-600 hover:text-gray-800">Mağaza</Link></li>
                         </ul>
                     </div>
-                    <a href="/" className="btn btn-ghost text-xl text-gray-700 hover:text-gray-900">
+                    <Link href="/" className="btn btn-ghost text-xl text-gray-700 hover:text-gray-900">
                         <img src="/penguensanat.png" alt="Penguen Sanat Logo" className="h-6" />
-                    </a>
+                    </Link>
                 </div>
 
                 <div className="navbar-center hidden lg:flex">

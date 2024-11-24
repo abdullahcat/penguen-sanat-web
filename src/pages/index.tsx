@@ -188,12 +188,12 @@ export default function Home() {
                                         Sanatseverler için özenle seçilmiş enstrüman koleksiyonumuzla hizmetinizdeyiz. Gitar, keman ve daha fazlası için mağazamıza göz atabilirsiniz.
                                     </p>
                                 </header>
-                                <a
+                                <Link
                                     href="/market"
                                     className="mt-8 btn btn-outline    text-black hover:text-white border-black hover:border-transparent   hover:bg-black                "
                                 >
                                     Hepsini gör
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="lg:col-span-2 lg:py-8">
