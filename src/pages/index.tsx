@@ -1,12 +1,10 @@
 
 import Head from "next/head";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Home() {
     const [showModal, setShowModal] = useState(false);
-    // YouTube video ID
-    const videoId = "sJYO3hurbvU";
-    const videoThumbnail = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
 
     return (
         <div>
@@ -136,12 +134,12 @@ export default function Home() {
                                     2015 yılında kurulan sanat merkezimiz, müzik eğitimi, tiyatro ve sanat etkinlikleri alanlarında uzman kadrosuyla hizmet vermektedir. Sanatı sevdirmek, yetenekleri keşfetmek ve geliştirmek için çeşitli eğitim programları sunuyoruz. Hem çocuklara hem de yetişkinlere yönelik kurslarımızla sanatı yaşamın bir parçası haline getirmeyi amaçlıyoruz.
                                 </p>
 
-                                <a
+                                <Link
                                     href="/about"
                                     className="mt-4 btn bg-orange-500 text-white border-none hover:bg-orange-600"
                                 >
                                     Daha fazla
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

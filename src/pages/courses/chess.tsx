@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 export default function ChessCourse() {
     return (
         <div className="bg-gray-100  min-h-screen">

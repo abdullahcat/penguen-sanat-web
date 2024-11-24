@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 function Footer() {
     return (
@@ -5,18 +6,18 @@ function Footer() {
             <footer className="footer   text-gray-900 p-10">
                 <nav>
                     <h6 className="footer-title">Kurslar</h6>
-                    <a href="/courses/music" className="link link-hover">Müzik</a>
-                    <a href="/courses/chess" className="link link-hover">Satranç</a>
-                    <a href="/courses/paint" className="link link-hover">Resim</a>
-                    <a href="/courses/drama" className="link link-hover">Tiyatro & Drama</a>
-                    <a href="/courses/robotics" className="link link-hover">Robotik Kodlama</a>
+                    <Link href="/courses/music" className="link link-hover">Müzik</Link>
+                    <Link href="/courses/chess" className="link link-hover">Satranç</Link>
+                    <Link href="/courses/paint" className="link link-hover">Resim</Link>
+                    <Link href="/courses/drama" className="link link-hover">Tiyatro & Drama</Link>
+                    <Link href="/courses/robotics" className="link link-hover">Robotik Kodlama</Link>
 
                 </nav>
                 <nav>
                     <h6 className="footer-title">Şirket</h6>
-                    <a href="/about" className="link link-hover">Hakkında</a>
-                    <a href="/highlights" className="link link-hover">Öne Çıkanlar</a>
-                    <a href="/market" className="link link-hover">Mağaza</a>
+                    <Link href="/about" className="link link-hover">Hakkında</Link>
+                    <Link href="/highlights" className="link link-hover">Öne Çıkanlar</Link>
+                    <Link href="/market" className="link link-hover">Mağaza</Link>
 
                 </nav>
                 <nav>

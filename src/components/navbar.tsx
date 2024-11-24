@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Navbar() {
     return (
         <>
@@ -31,19 +33,19 @@ export default function Navbar() {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-white/90 rounded-box z-[1] mt-3 w-52 p-2 shadow-md">
-                            <li><a href="/about" className="text-gray-600 hover:text-gray-800">Hakkımızda</a></li>
+                            <li><Link href="/about" className="text-gray-600 hover:text-gray-800">Hakkımızda</Link></li>
                             <li>
                                 <div className="text-gray-600  ">Kurslar</div>
                                 <ul className="p-2">
-                                    <li><a href="/courses/music" className="text-gray-600 hover:text-gray-800">Müzik</a></li>
-                                    <li><a href="/courses/chess" className="text-gray-600 hover:text-gray-800">Satranç</a></li>
-                                    <li><a href="/courses/paint" className="text-gray-600 hover:text-gray-800">Resim</a></li>
-                                    <li><a href="/courses/drama" className="text-gray-600 hover:text-gray-800">Tiyatro ve Drama</a></li>
-                                    <li><a href="/courses/robotics" className="text-gray-600 hover:text-gray-800">Robotik Kodlama</a></li>
+                                    <li><Link href="/courses/music" className="text-gray-600 hover:text-gray-800">Müzik</Link></li>
+                                    <li><Link href="/courses/chess" className="text-gray-600 hover:text-gray-800">Satranç</Link></li>
+                                    <li><Link href="/courses/paint" className="text-gray-600 hover:text-gray-800">Resim</Link></li>
+                                    <li><Link href="/courses/drama" className="text-gray-600 hover:text-gray-800">Tiyatro ve Drama</Link></li>
+                                    <li><Link href="/courses/robotics" className="text-gray-600 hover:text-gray-800">Robotik Kodlama</Link></li>
                                 </ul>
                             </li>
-                            <li><a href="/highlights" className="text-gray-600 hover:text-gray-800">Öne Çıkanlar</a></li>
-                            <li><a href="/market" className="text-gray-600 hover:text-gray-800">Mağaza</a></li>
+                            <li><Link href="/highlights" className="text-gray-600 hover:text-gray-800">Öne Çıkanlar</Link></li>
+                            <li><Link href="/market" className="text-gray-600 hover:text-gray-800">Mağaza</Link></li>
                         </ul>
                     </div>
                     <a href="/" className="btn btn-ghost text-xl text-gray-700 hover:text-gray-900">
@@ -53,21 +55,21 @@ export default function Navbar() {
 
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-2">
-                        <li><a href="/about" className="text-gray-600 hover:text-gray-800">Hakkımızda</a></li>
+                        <li><Link href="/about" className="text-gray-600 hover:text-gray-800">Hakkımızda</Link></li>
                         <li>
                             <details>
                                 <summary className="text-gray-600   hover:text-gray-800">Kurslar</summary>
                                 <ul className="p-2 shadow-md bg-white/90">
-                                    <li><a href="/courses/music" className="text-gray-600 hover:text-gray-800">Müzik</a></li>
-                                    <li><a href="/courses/chess" className="text-gray-600 hover:text-gray-800">Satranç</a></li>
-                                    <li><a href="/courses/paint" className="text-gray-600 hover:text-gray-800">Resim</a></li>
-                                    <li><a href="/courses/drama" className="text-gray-600 hover:text-gray-800">Tiyatro ve Drama</a></li>
-                                    <li><a href="/courses/robotics" className="text-gray-600 hover:text-gray-800">Robotik Kodlama</a></li>
+                                    <li><Link href="/courses/music" className="text-gray-600 hover:text-gray-800">Müzik</Link></li>
+                                    <li><Link href="/courses/chess" className="text-gray-600 hover:text-gray-800">Satranç</Link></li>
+                                    <li><Link href="/courses/paint" className="text-gray-600 hover:text-gray-800">Resim</Link></li>
+                                    <li><Link href="/courses/drama" className="text-gray-600 hover:text-gray-800">Tiyatro ve Drama</Link></li>
+                                    <li><Link href="/courses/robotics" className="text-gray-600 hover:text-gray-800">Robotik Kodlama</Link></li>
                                 </ul>
                             </details>
                         </li>
-                        <li><a href="/highlights" className="text-gray-600 hover:text-gray-800">Öne Çıkanlar</a></li>
-                        <li><a href="/market" className="text-gray-600 hover:text-gray-800">Mağaza</a></li>
+                        <li><Link href="/highlights" className="text-gray-600 hover:text-gray-800">Öne Çıkanlar</Link></li>
+                        <li><Link href="/market" className="text-gray-600 hover:text-gray-800">Mağaza</Link></li>
                     </ul>
                 </div>
 
